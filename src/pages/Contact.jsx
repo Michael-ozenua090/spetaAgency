@@ -19,10 +19,10 @@ export default function ContactForm() {
 
   return (
     <form onSubmit={onSubmit}>
-      <input type="text" name="name" required/>
-      <input type="email" name="email" required/>
-      <textarea name="message" required></textarea>
-      <button type="submit">Submit</button>
+      Name: <input type="text" name="name" required/> <br></br>
+      Email: <input type="email" name="email" required/> <br></br>
+      Message: <textarea name="message" required></textarea> <br></br>
+      <button type="submit">Submit</button> <br></br>
       <p>{result}</p>
     </form>
   );
